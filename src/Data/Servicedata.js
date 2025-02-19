@@ -44,6 +44,8 @@ import img43 from "../Images/treatment-shirodhara.jpg";
 import img44 from "../Images/treatment-takra basti.jpg";
 import img45 from "../Images/treatment-hydro therapy.jpg";
 import img46 from "../Images/treatment-ceragem therapy.jpg";
+import img47 from "../Images/kundali-removebg-preview.png";
+import img48 from "../Images/homewcu.webp";
 
 const Servicedata = [
   {
@@ -263,35 +265,35 @@ const Servicedata = [
     name: "Chakra Balancing Program",
     slug: "/Chakra-Balancing-Program",
     type: "Holistic Wellness",
-    image: [img28],
+    image: [img39],
   },
 
   {
     name: "Spiritual Guidance",
     slug: "/spiritual-Guidance",
     type: "Holistic Wellness",
-    image: [img28],
+    image: [img35],
   },
 
   {
     name: "Diet Consultation",
     slug: "/diet-Consultation",
     type: "Holistic Wellness",
-    image: [img28],
+    image: [img32],
   },
 
   {
     name: "Weight Loss Program",
     slug: "/weight-Loss-Program",
     type: "Holistic Wellness",
-    image: [img28],
+    image: [img33],
   },
 
   {
     name: "Chronic Disease Management",
     slug: "/chronic-Disease-Management",
     type: "Holistic Wellness",
-    image: [img28],
+    image: [img36],
   },
   //   spiritual & Health boosting program
   {
@@ -324,9 +326,10 @@ const Servicedata = [
     type: "Mental Health",
     image: [img38],
   },
+
   {
-    name: "Yoga",
-    slug: "/yoga",
+    name: "Yoga-facilities",
+    slug: "/yoga-facilities",
     type: "Yoga",
     image: [img29],
   },
@@ -334,7 +337,7 @@ const Servicedata = [
     name: "Shudhhi Kriya ",
     slug: "/shudhhi-kriya",
     type: "Yoga",
-    image: "/",
+    image: [img29],
   },
   {
     name: "Tratak",
@@ -350,28 +353,28 @@ const Servicedata = [
   },
   //other facilites
   {
-    name: "Tarot Reading",
+    name: "Tarot Reading ",
     slug: "/tarot-reading",
     type: "Other Facilities",
     image: [img34],
   },
   {
     name: "Numerology",
-    slug: "/numerology",
+    slug: "/numerologys",
     type: "Other Facilities",
-    image: [img33],
+    image: [img37],
   },
   {
     name: "Vastu Remedies",
-    slug: "/vastu-remedies",
+    slug: "/vastus-remedies",
     type: "Other Facilities",
-    image: [img33],
+    image: [img38],
   },
   {
-    name: " Kundali Reading and Guidance ",
-    slug: "/kundali-Reading-and-Guidance",
+    name: "Kundali Reading and Guidance",
+    slug: "/Kundali-Reading-and-Guidance",
     type: "Other Facilities",
-    image: [img32],
+    image: [img47],
   },
 ];
 export default Servicedata;

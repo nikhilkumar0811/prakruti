@@ -70,12 +70,12 @@ const Homethree = () => {
         }}
       >
         <div>
-          <p
+          {/* <p
             className="px-4 mt-5 p-1 homeoneserviceh6"
             style={{ backgroundColor: "white", border: "none" }}
           >
             OUR UPCOMING
-          </p>
+          </p> */}
           <hr
             className="mt-4"
             style={{ opacity: "1", borderTop: "1px solid white" }}
@@ -200,14 +200,14 @@ const Homethree = () => {
                   >
                     Yoga Nidra teacher training
                   </h3>
-                  <p
+                  {/* <p
                     className="m-0 mt-1"
                     style={{ color: "white", fontFamily: "var(--para-font)" }}
                   >
                     <IoMdTime color="white" size={21} className="mx-2" /> 50 min
                     / Session
-                  </p>
-                  <h5
+                  </p> */}
+                  {/* <h5
                     className="mt-3 px-1"
                     style={{
                       color: "var(--secondary-color)",
@@ -215,7 +215,7 @@ const Homethree = () => {
                     }}
                   >
                     ₹ 5000 / Month
-                  </h5>
+                  </h5> */}
                   <NavLink
                     to=""
                     class="pbmit-link"
@@ -290,14 +290,14 @@ const Homethree = () => {
                   >
                     Yoga Nidra teacher training
                   </h3>
-                  <p
+                  {/* <p
                     className="m-0 mt-1"
                     style={{ color: "white", fontFamily: "var(--para-font)" }}
                   >
                     <IoMdTime color="white" size={21} className="mx-2" /> 50 min
                     / Session
-                  </p>
-                  <h5
+                  </p> */}
+                  {/* <h5
                     className="mt-3 px-1"
                     style={{
                       color: "var(--secondary-color)",
@@ -305,7 +305,7 @@ const Homethree = () => {
                     }}
                   >
                     ₹ 5000 / Month
-                  </h5>
+                  </h5> */}
                   <NavLink
                     to=""
                     class="pbmit-link"
@@ -380,14 +380,14 @@ const Homethree = () => {
                   >
                     Yoga Nidra teacher training
                   </h3>
-                  <p
+                  {/* <p
                     className="m-0 mt-1"
                     style={{ color: "white", fontFamily: "var(--para-font)" }}
                   >
                     <IoMdTime color="white" size={21} className="mx-2" /> 50 min
                     / Session
-                  </p>
-                  <h5
+                  </p> */}
+                  {/* <h5
                     className="mt-3 px-1"
                     style={{
                       color: "var(--secondary-color)",
@@ -395,7 +395,7 @@ const Homethree = () => {
                     }}
                   >
                     ₹ 5000 / Month
-                  </h5>
+                  </h5> */}
                   <NavLink
                     to=""
                     class="pbmit-link"
@@ -470,14 +470,14 @@ const Homethree = () => {
                   >
                     Yoga Nidra teacher training
                   </h3>
-                  <p
+                  {/* <p
                     className="m-0 mt-1"
                     style={{ color: "white", fontFamily: "var(--para-font)" }}
                   >
                     <IoMdTime color="white" size={21} className="mx-2" /> 50 min
                     / Session
-                  </p>
-                  <h5
+                  </p> */}
+                  {/* <h5
                     className="mt-3 px-1"
                     style={{
                       color: "var(--secondary-color)",
@@ -485,7 +485,7 @@ const Homethree = () => {
                     }}
                   >
                     ₹ 5000 / Month
-                  </h5>
+                  </h5> */}
                   <NavLink
                     to=""
                     class="pbmit-link"
@@ -560,14 +560,14 @@ const Homethree = () => {
                   >
                     Yoga Nidra teacher training
                   </h3>
-                  <p
+                  {/* <p
                     className="m-0 mt-1"
                     style={{ color: "white", fontFamily: "var(--para-font)" }}
                   >
                     <IoMdTime color="white" size={21} className="mx-2" /> 50 min
                     / Session
-                  </p>
-                  <h5
+                  </p> */}
+                  {/* <h5
                     className="mt-3 px-1"
                     style={{
                       color: "var(--secondary-color)",
@@ -575,7 +575,7 @@ const Homethree = () => {
                     }}
                   >
                     ₹ 5000 / Month
-                  </h5>
+                  </h5> */}
                   <NavLink
                     to=""
                     class="pbmit-link"
@@ -650,14 +650,14 @@ const Homethree = () => {
                   >
                     Yoga Nidra teacher training
                   </h3>
-                  <p
+                  {/* <p
                     className="m-0 mt-1"
                     style={{ color: "white", fontFamily: "var(--para-font)" }}
                   >
                     <IoMdTime color="white" size={21} className="mx-2" /> 50 min
                     / Session
-                  </p>
-                  <h5
+                  </p> */}
+                  {/* <h5
                     className="mt-3 px-1"
                     style={{
                       color: "var(--secondary-color)",
@@ -665,7 +665,7 @@ const Homethree = () => {
                     }}
                   >
                     ₹ 5000 / Month
-                  </h5>
+                  </h5> */}
                   <NavLink
                     to=""
                     class="pbmit-link"

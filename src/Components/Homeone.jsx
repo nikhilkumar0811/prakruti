@@ -31,9 +31,9 @@ const Homeone = () => {
   return (
     <>
       <div className="container-fluid p-4">
-        <p className="px-4 p-1 homeoneserviceh6">SERVICE</p>
-        <hr style={{ opacity: "1" }} />
-        <div className="d-flex justify-content-between align-items-center">
+        {/* <p className="px-4 p-1 homeoneserviceh6">SERVICE</p> */}
+        {/* <hr style={{ opacity: "1" }} /> */}
+        {/* <div className="d-flex justify-content-between align-items-center">
           <h4
             className="display-5"
             style={{
@@ -58,7 +58,7 @@ const Homeone = () => {
               <MdNavigateNext size={36} color="var(--primary-color)" />
             </button>
           </div>
-        </div>
+        </div> */}
         <Swiper
           ref={swiperRef}
           onSlideChange={handleSlideChange}
@@ -86,7 +86,71 @@ const Homeone = () => {
           style={{ minHeightheight: "400px" }}
           className="mt-4"
         >
-          <SwiperSlide>
+          {/* <SwiperSlide>
+            <article
+              class="pbmit-service-style-1 swiper-slide swiper-slide-active"
+              role="group"
+              aria-label="1 / 6"
+            >
+              <div class="pbminfotech-post-item">
+                <div class="pbminfotech-box-content">
+                  <div class="pbmit-box-content-wrap">
+                    <div class="pbmit-box-content-inner">
+                      <div class="pbmit-contant-box">
+                        <div class="pbmit-serv-cat">
+                          <NavLink
+                            to="/"
+                            style={{
+                              color: "var(--primary-color)",
+                              textDecoration: "none",
+                            }}
+                          ></NavLink>
+                        </div>
+                        <h3 class="pbmit-service-title">
+                          <NavLink
+                            to="/"
+                            style={{
+                              color: "var(--primary-color)",
+                              textDecoration: "none",
+                            }}
+                          >
+                            Ardha Chakrasana
+                          </NavLink>
+                        </h3>
+                      </div>
+                      <div class="pbmit-service-icon">
+                        <i class="pbmit-yoge-icon pbmit-yoge-icon-yoga-pose">
+                          <img
+                            className="my-4"
+                            src={imgone}
+                            style={{ height: "85px", opacity: ".5" }}
+                            alt="img"
+                          />
+                        </i>
+                      </div>
+                    </div>
+                  </div>
+                  <NavLink to="/abc">
+                    <a class="pbmit-service-btn" title="Ardha Chakrasana">
+                      <span class="pbmit-button-icon-wrapper">
+                        <span class="pbmit-button-icon">
+                          <i class="pbmit-base-icon-black-arrow-1">
+                            <RxArrowTopRight />
+                          </i>
+                        </span>
+                      </span>
+                    </a>
+                  </NavLink>
+                </div>
+                <NavLink
+                  to=""
+                  class="pbmit-link"
+                  href="service-details.html"
+                ></NavLink>
+              </div>
+            </article>
+          </SwiperSlide> */}
+          {/* <SwiperSlide>
             <article
               class="pbmit-service-style-1 swiper-slide swiper-slide-active"
               role="group"
@@ -105,7 +169,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            {/* DJ Yoga Trainer */}
+                          
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
@@ -151,8 +215,8 @@ const Homeone = () => {
                 ></NavLink>
               </div>
             </article>
-          </SwiperSlide>
-          <SwiperSlide>
+          </SwiperSlide> */}
+          {/* <SwiperSlide>
             <article
               class="pbmit-service-style-1 swiper-slide swiper-slide-active"
               role="group"
@@ -171,7 +235,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            {/* DJ Yoga Trainer */}
+                          
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
@@ -217,8 +281,72 @@ const Homeone = () => {
                 ></NavLink>
               </div>
             </article>
-          </SwiperSlide>
-          <SwiperSlide>
+          </SwiperSlide> */}
+          {/* <SwiperSlide>
+            <article
+              class="pbmit-service-style-1 swiper-slide swiper-slide-active"
+              role="group"
+              aria-label="1 / 6"
+            >
+              <div class="pbminfotech-post-item">
+                <div class="pbminfotech-box-content">
+                  <div class="pbmit-box-content-wrap">
+                    <div class="pbmit-box-content-inner">
+                      <div class="pbmit-contant-box">
+                        <div class="pbmit-serv-cat">
+                          <NavLink
+                            to="/"
+                            style={{
+                              color: "var(--primary-color)",
+                              textDecoration: "none",
+                            }}
+                          ></NavLink>
+                        </div>
+                        <h3 class="pbmit-service-title">
+                          <NavLink
+                            to="/"
+                            style={{
+                              color: "var(--primary-color)",
+                              textDecoration: "none",
+                            }}
+                          >
+                            Ardha Chakrasana
+                          </NavLink>
+                        </h3>
+                      </div>
+                      <div class="pbmit-service-icon">
+                        <i class="pbmit-yoge-icon pbmit-yoge-icon-yoga-pose">
+                          <img
+                            className="my-4"
+                            src={imgone}
+                            style={{ height: "85px", opacity: ".5" }}
+                            alt="img"
+                          />
+                        </i>
+                      </div>
+                    </div>
+                  </div>
+                  <NavLink to="/abc">
+                    <a class="pbmit-service-btn" title="Ardha Chakrasana">
+                      <span class="pbmit-button-icon-wrapper">
+                        <span class="pbmit-button-icon">
+                          <i class="pbmit-base-icon-black-arrow-1">
+                            <RxArrowTopRight />
+                          </i>
+                        </span>
+                      </span>
+                    </a>
+                  </NavLink>
+                </div>
+                <NavLink
+                  to=""
+                  class="pbmit-link"
+                  href="service-details.html"
+                ></NavLink>
+              </div>
+            </article>
+          </SwiperSlide> */}
+          {/* <SwiperSlide>
             <article
               class="pbmit-service-style-1 swiper-slide swiper-slide-active"
               role="group"
@@ -237,7 +365,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            {/* DJ Yoga Trainer */}
+                            
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
@@ -283,8 +411,8 @@ const Homeone = () => {
                 ></NavLink>
               </div>
             </article>
-          </SwiperSlide>
-          <SwiperSlide>
+          </SwiperSlide> */}
+          {/* <SwiperSlide>
             <article
               class="pbmit-service-style-1 swiper-slide swiper-slide-active"
               role="group"
@@ -302,9 +430,7 @@ const Homeone = () => {
                               color: "var(--primary-color)",
                               textDecoration: "none",
                             }}
-                          >
-                            {/* DJ Yoga Trainer */}
-                          </NavLink>
+                          ></NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
                           <NavLink
@@ -317,8 +443,8 @@ const Homeone = () => {
                             Ardha Chakrasana
                           </NavLink>
                         </h3>
-                      </div>
-                      <div class="pbmit-service-icon">
+                      </div> 
+                       <div class="pbmit-service-icon">
                         <i class="pbmit-yoge-icon pbmit-yoge-icon-yoga-pose">
                           <img
                             className="my-4"
@@ -349,139 +475,7 @@ const Homeone = () => {
                 ></NavLink>
               </div>
             </article>
-          </SwiperSlide>
-          <SwiperSlide>
-            <article
-              class="pbmit-service-style-1 swiper-slide swiper-slide-active"
-              role="group"
-              aria-label="1 / 6"
-            >
-              <div class="pbminfotech-post-item">
-                <div class="pbminfotech-box-content">
-                  <div class="pbmit-box-content-wrap">
-                    <div class="pbmit-box-content-inner">
-                      <div class="pbmit-contant-box">
-                        <div class="pbmit-serv-cat">
-                          <NavLink
-                            to="/"
-                            style={{
-                              color: "var(--primary-color)",
-                              textDecoration: "none",
-                            }}
-                          >
-                            {/* DJ Yoga Trainer */}
-                          </NavLink>
-                        </div>
-                        <h3 class="pbmit-service-title">
-                          <NavLink
-                            to="/"
-                            style={{
-                              color: "var(--primary-color)",
-                              textDecoration: "none",
-                            }}
-                          >
-                            Ardha Chakrasana
-                          </NavLink>
-                        </h3>
-                      </div>
-                      <div class="pbmit-service-icon">
-                        <i class="pbmit-yoge-icon pbmit-yoge-icon-yoga-pose">
-                          <img
-                            className="my-4"
-                            src={imgone}
-                            style={{ height: "85px", opacity: ".5" }}
-                            alt="img"
-                          />
-                        </i>
-                      </div>
-                    </div>
-                  </div>
-                  <NavLink to="/abc">
-                    <a class="pbmit-service-btn" title="Ardha Chakrasana">
-                      <span class="pbmit-button-icon-wrapper">
-                        <span class="pbmit-button-icon">
-                          <i class="pbmit-base-icon-black-arrow-1">
-                            <RxArrowTopRight />
-                          </i>
-                        </span>
-                      </span>
-                    </a>
-                  </NavLink>
-                </div>
-                <NavLink
-                  to=""
-                  class="pbmit-link"
-                  href="service-details.html"
-                ></NavLink>
-              </div>
-            </article>
-          </SwiperSlide>
-          <SwiperSlide>
-            <article
-              class="pbmit-service-style-1 swiper-slide swiper-slide-active"
-              role="group"
-              aria-label="1 / 6"
-            >
-              <div class="pbminfotech-post-item">
-                <div class="pbminfotech-box-content">
-                  <div class="pbmit-box-content-wrap">
-                    <div class="pbmit-box-content-inner">
-                      <div class="pbmit-contant-box">
-                        <div class="pbmit-serv-cat">
-                          <NavLink
-                            to="/"
-                            style={{
-                              color: "var(--primary-color)",
-                              textDecoration: "none",
-                            }}
-                          >
-                            {/* DJ Yoga Trainer */}
-                          </NavLink>
-                        </div>
-                        <h3 class="pbmit-service-title">
-                          <NavLink
-                            to="/"
-                            style={{
-                              color: "var(--primary-color)",
-                              textDecoration: "none",
-                            }}
-                          >
-                            Ardha Chakrasana
-                          </NavLink>
-                        </h3>
-                      </div>
-                      <div class="pbmit-service-icon">
-                        <i class="pbmit-yoge-icon pbmit-yoge-icon-yoga-pose">
-                          <img
-                            className="my-4"
-                            src={imgone}
-                            style={{ height: "85px", opacity: ".5" }}
-                            alt="img"
-                          />
-                        </i>
-                      </div>
-                    </div>
-                  </div>
-                  <NavLink to="/abc">
-                    <a class="pbmit-service-btn" title="Ardha Chakrasana">
-                      <span class="pbmit-button-icon-wrapper">
-                        <span class="pbmit-button-icon">
-                          <i class="pbmit-base-icon-black-arrow-1">
-                            <RxArrowTopRight />
-                          </i>
-                        </span>
-                      </span>
-                    </a>
-                  </NavLink>
-                </div>
-                <NavLink
-                  to=""
-                  class="pbmit-link"
-                  href="service-details.html"
-                ></NavLink>
-              </div>
-            </article>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </>

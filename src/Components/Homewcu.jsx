@@ -140,11 +140,11 @@ const Homewcu = () => {
         className="container-fluid p-4 py-5"
         style={{
           width: width,
-          margin: "0 auto",
+          margin: "75px 0",
           transition: "width 1s ease", // Smooth transition when changing width
           backgroundColor: "var(--primary-color)",
           backgroundImage: `url(${pattern})`,
-          borderRadius: "16px",
+          borderRadius: "none",
         }}
       >
         <div className="row py-5 d-flex align-items-center">

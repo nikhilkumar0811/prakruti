@@ -1,5 +1,5 @@
 import React from "react";
-import { TfiArrowTopRight } from "react-icons/tfi"; // Importing the arrow icon from react-icons
+import { TfiArrowTopRight } from "react-icons/tfi";
 import "./Hometrainer.css";
 import { Slide } from "react-awesome-reveal";
 import Trainerdata from "../Data/Trainerdata";
@@ -7,7 +7,7 @@ import Trainerdata from "../Data/Trainerdata";
 const Hometrainer = () => {
   return (
     <>
-      <div className="container-fluid p-4 my-5">
+      {/* <div className="container-fluid p-4 my-5">
         <div
           className="d-flex justify-content-center pb-4"
           style={{ flexWrap: "wrap" }}
@@ -61,10 +61,8 @@ const Hometrainer = () => {
                 >
                   KNOW MORE
                   <span className="button__icon-wrapper">
-                    {/* First arrow icon */}
                     <TfiArrowTopRight size={16} className="button__icon-svg" />
 
-                    {/* Second arrow icon (copy) */}
                     <TfiArrowTopRight
                       size={16}
                       color="white"
@@ -77,7 +75,7 @@ const Hometrainer = () => {
             <hr className="mt-4" style={{ opacity: "1" }} color="#181a17" />
           </>
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

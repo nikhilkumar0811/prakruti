@@ -105,7 +105,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            DJ Yoga Trainer
+                            {/* DJ Yoga Trainer */}
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
@@ -171,7 +171,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            DJ Yoga Trainer
+                            {/* DJ Yoga Trainer */}
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
@@ -237,7 +237,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            DJ Yoga Trainer
+                            {/* DJ Yoga Trainer */}
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
@@ -303,7 +303,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            DJ Yoga Trainer
+                            {/* DJ Yoga Trainer */}
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
@@ -369,7 +369,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            DJ Yoga Trainer
+                            {/* DJ Yoga Trainer */}
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">
@@ -435,7 +435,7 @@ const Homeone = () => {
                               textDecoration: "none",
                             }}
                           >
-                            DJ Yoga Trainer
+                            {/* DJ Yoga Trainer */}
                           </NavLink>
                         </div>
                         <h3 class="pbmit-service-title">

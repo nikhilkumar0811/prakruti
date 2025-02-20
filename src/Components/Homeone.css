@@ -61,7 +61,7 @@
 	font-weight: 500;
 	font-family:var(--head-font);
 }
-.pbmit-service-style-1 .pbmit-serv-cat::before{
+/* .pbmit-service-style-1 .pbmit-serv-cat::before{
 	position: absolute;
 	content: "";
 	width: 8px;
@@ -71,7 +71,7 @@
 	left: 0;
 	top: 50%;
 	transform: translate(0 , -50%);
-}
+} */
 .pbmit-service-style-1 .pbmit-service-icon{
 	font-size: 98px;
 	line-height: 70px;

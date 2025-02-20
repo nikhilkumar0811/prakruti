@@ -66,7 +66,7 @@ const Homethree = () => {
           transition: "width 1s ease", // Smooth transition when changing width
           backgroundColor: "var(--primary-color)",
           backgroundImage: `url(${pattern})`,
-          borderRadius: "16px",
+          borderRadius: "none",
         }}
       >
         <div>

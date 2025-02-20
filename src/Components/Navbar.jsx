@@ -141,7 +141,7 @@ const Navbar = () => {
             loop // Enable looping (optional)
             className="banner-home-page"
             style={{
-              height: "800px",
+              height: "750px",
               position: "absolute",
               top: "0",
               left: "0",
@@ -161,7 +161,7 @@ const Navbar = () => {
                   src={bannersix}
                   alt="img"
                   style={{
-                    height: "800px",
+                    height: "750px",
                     width: "100%",
                     objectFit: "cover",
                     objectPosition: "top",
@@ -245,7 +245,7 @@ const Navbar = () => {
                   src={bannerfive}
                   alt="img"
                   style={{
-                    height: "800px",
+                    height: "750px",
                     width: "100%",
                     objectFit: "cover",
                     objectPosition: "top",
@@ -327,7 +327,7 @@ const Navbar = () => {
                   src={bannerfour}
                   alt="img"
                   style={{
-                    height: "800px",
+                    height: "750px",
                     width: "100%",
                     objectFit: "cover",
                     objectPosition: "top",
@@ -402,7 +402,7 @@ const Navbar = () => {
         <div
           className="row mx-0 pt-5"
           style={{
-            marginTop: "-25px",
+            marginTop: "-65px",
             zIndex: "-2",
             position: "relative",
             borderEndEndRadius: "24px",

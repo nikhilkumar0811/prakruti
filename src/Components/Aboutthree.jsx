@@ -4,6 +4,7 @@ import { TfiArrowTopRight } from "react-icons/tfi"; // Importing the arrow icon 
 import "./Aboutthree.css";
 import bannerone from "../Images/bannerone.jpg";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Aboutthree = () => {
   const [width, setWidth] = useState("90%"); // Initially set to 90%
@@ -155,8 +156,8 @@ const Aboutthree = () => {
                     Spiritual Guidance
                   </h2>
                 </div>
-                <a
-                  href="spiritual-Guidance"
+                <Link
+                  to="/spiritual-Guidance"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",
@@ -175,7 +176,7 @@ const Aboutthree = () => {
                       className="button__icon-svg button__icon-svg--copy"
                     />
                   </span>
-                </a>
+                </Link>
               </div>
               <hr style={{ borderTop: "1px solid white" }} />
 

@@ -5,6 +5,9 @@ import bannerthree from "../Images/bannerthree.jpg";
 import weightred2 from "../Images/weightred2.jpg";
 import protect from "../Images/protect.jpg";
 import increasedflex from "../Images/increasedflex.jpg";
+import tratak2 from "../Images/tratak2.jpg";
+import diet from "../Images/dietconsult.jpg";
+import vastu1 from "../Images/vastu1.jpg";
 import { TfiArrowTopRight } from "react-icons/tfi"; // Importing the arrow icon from react-icons
 import "./Abouttwo.css";
 const Abouttwo = () => {
@@ -14,7 +17,7 @@ const Abouttwo = () => {
         <div className="row mt-5 abouttworow">
           <div className="col-12 col-md-6 p-0">
             <img
-              src={protect}
+              src={tratak2}
               style={{
                 // width: "90%",
                 height: "350px",
@@ -43,7 +46,7 @@ const Abouttwo = () => {
                 01
               </h2>
               <h2 className="mt-4" style={{ fontFamily: "var(--head-font)" }}>
-                Protection From Injury
+                Tratak
               </h2>
               <p
                 className="mt-5"
@@ -54,8 +57,8 @@ const Abouttwo = () => {
                   fontSize: "18px",
                 }}
               >
-                Ensuring safety through effective preventive measures, and
-                proper care, to minimize the risk of injuries.{" "}
+                Improving concentration and mental clarity through focused
+                gazing, steady breathing, and consistent Tratak practice.{" "}
               </p>
               <button
                 href="#"
@@ -91,7 +94,7 @@ const Abouttwo = () => {
         <div className="row mt-5 abouttworow">
           <div className="col-12 col-md-6 p-0">
             <img
-              src={weightred2}
+              src={diet}
               style={{
                 // width: "90%",
                 height: "350px",
@@ -120,7 +123,7 @@ const Abouttwo = () => {
                 02
               </h2>
               <h2 className="mt-4" style={{ fontFamily: "var(--head-font)" }}>
-                Weight Reduction
+                Diet Consultation
               </h2>
               <p
                 className="mt-5"
@@ -131,8 +134,8 @@ const Abouttwo = () => {
                   fontSize: "18px",
                 }}
               >
-                Achieving a healthier lifestyle through balanced nutrition,
-                regular exercise, and effective weight management strategies.{" "}
+                Achieving better health through personalized nutrition plans,
+                expert guidance, and effective diet consultations.{" "}
               </p>
               <button
                 href="#"
@@ -168,7 +171,7 @@ const Abouttwo = () => {
         <div className="row mt-5 abouttworow">
           <div className="col-12 col-md-6 p-0">
             <img
-              src={increasedflex}
+              src={vastu1}
               style={{
                 // width: "90%",
                 height: "350px",
@@ -197,7 +200,7 @@ const Abouttwo = () => {
                 03
               </h2>
               <h2 className="mt-4" style={{ fontFamily: "var(--head-font)" }}>
-                Increased Flexibility
+                Vastu Remedies
               </h2>
               <p
                 className="mt-5"
@@ -208,8 +211,8 @@ const Abouttwo = () => {
                   fontSize: "18px",
                 }}
               >
-                Enhancing mobility and flexibility through regular stretching,
-                proper posture, and effective flexibility training techniques.{" "}
+                Enhancing harmony and positive energy through expert Vastu
+                guidance, structural alignment, and effective remedies.{" "}
               </p>
               <button
                 href="#"

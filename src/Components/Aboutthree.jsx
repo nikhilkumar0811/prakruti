@@ -156,7 +156,7 @@ const Aboutthree = () => {
                   </h2>
                 </div>
                 <a
-                  href="/spiritual-Guidance"
+                  href="spiritual-Guidance"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",

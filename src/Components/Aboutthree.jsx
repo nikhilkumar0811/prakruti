@@ -195,8 +195,8 @@ const Aboutthree = () => {
                     Diet Consultation
                   </h2>
                 </div>
-                <a
-                  href="/diet-Consultation"
+                <Link
+                  to="/diet-Consultation"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",
@@ -215,7 +215,7 @@ const Aboutthree = () => {
                       className="button__icon-svg button__icon-svg--copy"
                     />
                   </span>
-                </a>
+                </Link>
               </div>
               <hr style={{ borderTop: "1px solid white" }} />
 
@@ -234,8 +234,8 @@ const Aboutthree = () => {
                     Yoga Facilities
                   </h2>
                 </div>
-                <a
-                  href="/yoga-facilities"
+                <Link
+                  to="/yoga-facilities"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",
@@ -254,7 +254,7 @@ const Aboutthree = () => {
                       className="button__icon-svg button__icon-svg--copy"
                     />
                   </span>
-                </a>
+                </Link>
               </div>
               <hr style={{ borderTop: "1px solid white" }} />
 
@@ -273,8 +273,8 @@ const Aboutthree = () => {
                     Meditations
                   </h2>
                 </div>
-                <a
-                  href="/meditations"
+                <Link
+                  to="/meditations"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",
@@ -293,7 +293,7 @@ const Aboutthree = () => {
                       className="button__icon-svg button__icon-svg--copy"
                     />
                   </span>
-                </a>
+                </Link>
               </div>
               <hr style={{ borderTop: "1px solid white" }} />
             </div>

@@ -26,8 +26,8 @@ const Footer = () => {
                     color: "black",
                   }}
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Corporis ipsam facere ad nesciunt{" "}
+                  Embrace holistic healing and inner peace with the power of
+                  naturopathy and yoga.{" "}
                 </p>
               </div>
               <div className="col-6"></div>
@@ -93,7 +93,7 @@ const Footer = () => {
           </div>
           <div className="col-12 col-md-7">
             <h3 className="px-2" style={{ fontFamily: "var(--head-font)" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa.
+              Prakruthi Naturopathy & Yog – Heal Naturally, Live Blissfull.{" "}
             </h3>
             <div className="row mt-5">
               <div className="col-12 col-md-4">

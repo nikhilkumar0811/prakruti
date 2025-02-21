@@ -142,21 +142,21 @@ const Aboutthree = () => {
             <div className="col-12 col-md-6 mt-5 ">
               <div className="d-flex w-100 align-items-center justify-content-between abouthreediv">
                 <div>
-                  <h6
+                  {/* <h6
                     className="mt-3 ps-3 text-white aboutthreeh"
                     style={{ fontFamily: "var(--head-font)" }}
                   >
                     DJ YOGA TRAINER
-                  </h6>
+                  </h6> */}
                   <h2
                     className="mt-3 text-white display-6 aboutthreeh2"
                     style={{ fontFamily: "var(--head-font)" }}
                   >
-                    Ardha Chakrasana
+                    Spiritual Guidance
                   </h2>
                 </div>
-                <button
-                  href="#"
+                <a
+                  href="/spiritual-Guidance"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",
@@ -175,27 +175,27 @@ const Aboutthree = () => {
                       className="button__icon-svg button__icon-svg--copy"
                     />
                   </span>
-                </button>
+                </a>
               </div>
               <hr style={{ borderTop: "1px solid white" }} />
 
               <div className="d-flex w-100 align-items-center justify-content-between abouthreediv">
                 <div>
-                  <h6
+                  {/* <h6
                     className="mt-3 ps-3 text-white aboutthreeh"
                     style={{ fontFamily: "var(--head-font)" }}
                   >
                     MANTRA YOGA TRAINER
-                  </h6>
+                  </h6> */}
                   <h2
                     className="mt-3 text-white display-6 aboutthreeh2"
                     style={{ fontFamily: "var(--head-font)" }}
                   >
-                    Badha Konasana
+                    Diet Consultation
                   </h2>
                 </div>
-                <button
-                  href="#"
+                <a
+                  href="/diet-Consultation"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",
@@ -214,27 +214,27 @@ const Aboutthree = () => {
                       className="button__icon-svg button__icon-svg--copy"
                     />
                   </span>
-                </button>
+                </a>
               </div>
               <hr style={{ borderTop: "1px solid white" }} />
 
               <div className="d-flex w-100 align-items-center justify-content-between abouthreediv">
                 <div>
-                  <h6
+                  {/* <h6
                     className="mt-3 ps-3 text-white aboutthreeh"
                     style={{ fontFamily: "var(--head-font)" }}
                   >
                     DJ YOGA TRAINER
-                  </h6>
+                  </h6> */}
                   <h2
                     className="mt-3 text-white display-6 aboutthreeh2"
                     style={{ fontFamily: "var(--head-font)" }}
                   >
-                    Ashtanga Namaskara
+                    Yoga Facilities
                   </h2>
                 </div>
-                <button
-                  href="#"
+                <a
+                  href="/yoga-facilities"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",
@@ -253,27 +253,27 @@ const Aboutthree = () => {
                       className="button__icon-svg button__icon-svg--copy"
                     />
                   </span>
-                </button>
+                </a>
               </div>
               <hr style={{ borderTop: "1px solid white" }} />
 
               <div className="d-flex w-100 align-items-center justify-content-between abouthreediv">
                 <div>
-                  <h6
+                  {/* <h6
                     className="mt-3 ps-3 text-white aboutthreeh"
                     style={{ fontFamily: "var(--head-font)" }}
                   >
                     ASTANGA YOGA TRAINER
-                  </h6>
+                  </h6> */}
                   <h2
                     className="mt-3 text-white display-6 aboutthreeh2"
                     style={{ fontFamily: "var(--head-font)" }}
                   >
-                    Urdhva Hastasana
+                    Meditations
                   </h2>
                 </div>
-                <button
-                  href="#"
+                <a
+                  href="/meditations"
                   className="button mt-3 p-3"
                   style={{
                     "--clr": "white",
@@ -292,7 +292,7 @@ const Aboutthree = () => {
                       className="button__icon-svg button__icon-svg--copy"
                     />
                   </span>
-                </button>
+                </a>
               </div>
               <hr style={{ borderTop: "1px solid white" }} />
             </div>

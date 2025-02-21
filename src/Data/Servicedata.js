@@ -45,8 +45,9 @@ import img44 from "../Images/treatment-takra basti.jpg";
 import img45 from "../Images/treatment-hydro therapy.jpg";
 import img46 from "../Images/treatment-ceragem therapy.jpg";
 import img47 from "../Images/kundali-removebg-preview.png";
-import img48 from "../Images/homewcu.webp";
 
+import img48 from "../Images/homewcu.webp";
+import img49 from "../Images/shuddhikr.jpg";
 const Servicedata = [
   {
     name: "Kati Basti",
@@ -337,7 +338,7 @@ const Servicedata = [
     name: "Shudhhi Kriya ",
     slug: "/shudhhi-kriya",
     type: "Yoga",
-    image: [img29],
+    image: [img49],
   },
   {
     name: "Tratak",

@@ -2,6 +2,9 @@ import React from "react";
 import bannerone from "../Images/bannerone.jpg";
 import bannertwo from "../Images/bannertwo.jpg";
 import bannerthree from "../Images/bannerthree.jpg";
+import weightred2 from "../Images/weightred2.jpg";
+import protect from "../Images/protect.jpg";
+import increasedflex from "../Images/increasedflex.jpg";
 import { TfiArrowTopRight } from "react-icons/tfi"; // Importing the arrow icon from react-icons
 import "./Abouttwo.css";
 const Abouttwo = () => {
@@ -11,7 +14,7 @@ const Abouttwo = () => {
         <div className="row mt-5 abouttworow">
           <div className="col-12 col-md-6 p-0">
             <img
-              src={bannerone}
+              src={protect}
               style={{
                 // width: "90%",
                 height: "350px",
@@ -51,8 +54,8 @@ const Abouttwo = () => {
                   fontSize: "18px",
                 }}
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
-                quaerat iure? Quisquam, voluptates{" "}
+                Ensuring safety through effective preventive measures, and
+                proper care, to minimize the risk of injuries.{" "}
               </p>
               <button
                 href="#"
@@ -88,7 +91,7 @@ const Abouttwo = () => {
         <div className="row mt-5 abouttworow">
           <div className="col-12 col-md-6 p-0">
             <img
-              src={bannertwo}
+              src={weightred2}
               style={{
                 // width: "90%",
                 height: "350px",
@@ -128,8 +131,8 @@ const Abouttwo = () => {
                   fontSize: "18px",
                 }}
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
-                quaerat iure? Quisquam, voluptates{" "}
+                Achieving a healthier lifestyle through balanced nutrition,
+                regular exercise, and effective weight management strategies.{" "}
               </p>
               <button
                 href="#"
@@ -165,7 +168,7 @@ const Abouttwo = () => {
         <div className="row mt-5 abouttworow">
           <div className="col-12 col-md-6 p-0">
             <img
-              src={bannerthree}
+              src={increasedflex}
               style={{
                 // width: "90%",
                 height: "350px",
@@ -205,8 +208,8 @@ const Abouttwo = () => {
                   fontSize: "18px",
                 }}
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
-                quaerat iure? Quisquam, voluptates{" "}
+                Enhancing mobility and flexibility through regular stretching,
+                proper posture, and effective flexibility training techniques.{" "}
               </p>
               <button
                 href="#"

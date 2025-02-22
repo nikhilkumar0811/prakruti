@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import bannerthree from "../Images/bannerthree.jpg";
 import imgone from "../Images/yoga.png";
+import aboutab from "../Images/aboutab.jpg";
 import { TfiArrowTopRight } from "react-icons/tfi"; // Importing the arrow icon from react-icons
 
 import "./Aboutone.css";
@@ -72,7 +73,7 @@ const Aboutone = () => {
                 borderRadius: "24px",
                 width: "100%",
                 backgroundSize: "cover",
-                backgroundImage: `url(${bannerthree})`,
+                backgroundImage: `url(${aboutab})`,
 
                 position: "relative",
               }}

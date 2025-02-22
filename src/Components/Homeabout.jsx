@@ -1,5 +1,6 @@
 import React from "react";
 import bannerone from "../Images/bannerone.jpg";
+import homeabout from "../Images/homeabout.jpg";
 import "./Homeabout.css";
 import imgone from "../Images/yoga.png";
 import bannertwo from "../Images/bannertwo.jpg";
@@ -13,7 +14,7 @@ const Homeabout = () => {
         <div className="row p-2 homeabout">
           <div className="col-12 col-md-5 py-4 ps-lg--4">
             <img
-              src={bannerone}
+              src={homeabout}
               style={{
                 height: "550px",
                 width: "100%",

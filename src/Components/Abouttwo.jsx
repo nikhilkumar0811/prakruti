@@ -6,8 +6,9 @@ import weightred2 from "../Images/weightred2.jpg";
 import protect from "../Images/protect.jpg";
 import increasedflex from "../Images/increasedflex.jpg";
 import tratak2 from "../Images/tratak2.jpg";
-import diet from "../Images/dietconsult.jpg";
+
 import vastu1 from "../Images/vastu1.jpg";
+import ShudhhiKriya from "../Images/ShudhhiKriya.jpg";
 import { TfiArrowTopRight } from "react-icons/tfi"; // Importing the arrow icon from react-icons
 import "./Abouttwo.css";
 const Abouttwo = () => {
@@ -94,7 +95,7 @@ const Abouttwo = () => {
         <div className="row mt-5 abouttworow">
           <div className="col-12 col-md-6 p-0">
             <img
-              src={diet}
+              src={ShudhhiKriya}
               style={{
                 // width: "90%",
                 height: "350px",
@@ -123,7 +124,7 @@ const Abouttwo = () => {
                 02
               </h2>
               <h2 className="mt-4" style={{ fontFamily: "var(--head-font)" }}>
-                Diet Consultation
+                Shudhhi Kriya
               </h2>
               <p
                 className="mt-5"
@@ -134,8 +135,8 @@ const Abouttwo = () => {
                   fontSize: "18px",
                 }}
               >
-                Achieving better health through personalized nutrition plans,
-                expert guidance, and effective diet consultations.{" "}
+                Purifying the body and mind through cleansing techniques,
+                controlled breathing, and disciplined Shuddhi Kriya practices.{" "}
               </p>
               <button
                 href="#"

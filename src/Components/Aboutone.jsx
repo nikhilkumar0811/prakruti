@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import bannerthree from "../Images/bannerthree.jpg";
 import imgone from "../Images/yoga.png";
 import aboutab from "../Images/aboutab.jpg";
+import abouta from "../Images/abouta.jpg";
 import { TfiArrowTopRight } from "react-icons/tfi"; // Importing the arrow icon from react-icons
 
 import "./Aboutone.css";
@@ -73,7 +74,7 @@ const Aboutone = () => {
                 borderRadius: "24px",
                 width: "100%",
                 backgroundSize: "cover",
-                backgroundImage: `url(${aboutab})`,
+                backgroundImage: `url(${abouta})`,
 
                 position: "relative",
               }}
@@ -126,7 +127,7 @@ const Aboutone = () => {
                   }}
                 >
                   <div>
-                    <CountUpOnScroll targetCount={235} />
+                    <CountUpOnScroll targetCount={99} />
 
                     <hr />
                     <h6

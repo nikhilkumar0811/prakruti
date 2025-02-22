@@ -152,7 +152,9 @@ const Footer = () => {
                   className="pe-4 mt-4"
                   style={{ pfontFamily: "var(--para-font)", fontSize: "16px" }}
                 >
-                  Address to be written here with the pincode 000000
+                  Green Acres, Phase 1, D wing, Flat No. 104, First Floor Behind
+                  Bank of Baroda, Vijay Galaxy, Ghodbandar Road, Waghbil Naka
+                  Flyover, Thane, Maharashtra 400607{" "}
                 </p>
               </div>
             </div>

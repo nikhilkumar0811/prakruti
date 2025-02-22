@@ -1,6 +1,7 @@
 import React from "react";
 import bannerone from "../Images/bannerone.jpg";
 import homeabout from "../Images/homeabout.jpg";
+import homeabout1 from "../Images/homeabout1.jpg";
 import "./Homeabout.css";
 import imgone from "../Images/yoga.png";
 import bannertwo from "../Images/bannertwo.jpg";
@@ -111,7 +112,7 @@ const Homeabout = () => {
               <div className="mt-2 p-2">
                 <img
                   className="mt-5"
-                  src={bannertwo}
+                  src={homeabout1}
                   alt="img"
                   style={{
                     height: "200px",

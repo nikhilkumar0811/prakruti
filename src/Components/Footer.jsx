@@ -74,7 +74,7 @@ const Footer = () => {
                 >
                   <FaWhatsapp size={25} />
                 </div>
-                <div
+                {/* <div
                   className="mx-1"
                   style={{
                     height: "45px",
@@ -87,12 +87,12 @@ const Footer = () => {
                   }}
                 >
                   <FaYoutube size={25} />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           <div className="col-12 col-md-7">
-            <h3 className="px-2" style={{ fontFamily: "var(--head-font)" }}>
+            <h3 className="px-2 " style={{ fontFamily: "var(--head-font)" }}>
               Prakruthi Naturopathy & Yog – Heal Naturally, Live Blissfull.{" "}
             </h3>
             <div className="row mt-5">

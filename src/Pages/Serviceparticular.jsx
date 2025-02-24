@@ -1,24 +1,26 @@
-import React from 'react'
-import { NavLink, useLocation } from 'react-router-dom';
-import Servicedata from '../Data/Servicedata';
+import React from "react";
+import { NavLink, useLocation } from "react-router-dom";
+import Servicedata from "../Data/Servicedata";
 import bannerone from "../Images/bannerone.jpg";
-import Banner from '../Components/Banner';
+import services from "../Images/servicesbanner.jpg";
+import Banner from "../Components/Banner";
 import { RxArrowTopRight } from "react-icons/rx";
 
 const Serviceparticular = () => {
-    const path = useLocation();
+  const path = useLocation();
   const search = path.pathname;
-  console.log(search)
-  const servicedata=Servicedata.filter(data=>`/${data.type.toLowerCase().replace(' ','-')}`===search)
+  console.log(search);
+  const servicedata = Servicedata.filter(
+    (data) => `/${data.type.toLowerCase().replace(" ", "-")}` === search
+  );
   return (
     <>
-              <Banner banner={bannerone} titleone={servicedata[0].type} />
-              <div className="container-fluid px-5 my-5">
-                <div className="row">
-        
-              {servicedata.map((data)=>(
-                <div className="col-12 col-md-6 col-lg-4 my-4">
-                <article
+      <Banner banner={services} titleone={servicedata[0].type} />
+      <div className="container-fluid px-5 my-5">
+        <div className="row">
+          {servicedata.map((data) => (
+            <div className="col-12 col-md-6 col-lg-4 my-4">
+              <article
                 class="pbmit-service-style-1 swiper-slide swiper-slide-active"
                 role="group"
                 aria-label="1 / 6"
@@ -79,11 +81,14 @@ const Serviceparticular = () => {
                   </div>
                   <h3
                     className="mt-4 mb-0 p-1"
-                    style={{ color: "var(--primary-color)", fontFamily: "var(--head-font)" }}
+                    style={{
+                      color: "var(--primary-color)",
+                      fontFamily: "var(--head-font)",
+                    }}
                   >
                     {data.name}
                   </h3>
-                 
+
                   <NavLink
                     to={data.slug}
                     class="pbmit-link"
@@ -91,13 +96,12 @@ const Serviceparticular = () => {
                   ></NavLink>
                 </div>
               </article>
-              </div>
-              ))}
-
-                </div>
             </div>
+          ))}
+        </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Serviceparticular
+export default Serviceparticular;

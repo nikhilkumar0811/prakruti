@@ -562,6 +562,7 @@ const Service = () => {
                         overflowX: "hidden",
                         height: "100vh",
                         scrollbarWidth: "none",
+                        marginRight: "10px",
                       }}
                     >
                       {Servicedata.filter(

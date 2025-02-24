@@ -555,7 +555,15 @@ const Service = () => {
                     style={{ borderRadius: "24px", backgroundColor: "white" }}
                   >
                     <h4 className="mt-3 ps-4 serviceultitle">Our Service</h4>
-                    <ul className="p-0 mt-5">
+                    <ul
+                      className="p-0 mt-5"
+                      style={{
+                        overflowY: "scroll",
+                        overflowX: "hidden",
+                        height: "100vh",
+                        scrollbarWidth: "none",
+                      }}
+                    >
                       {Servicedata.filter(
                         (datas) => datas.type === data.type
                       ).map((data) => (

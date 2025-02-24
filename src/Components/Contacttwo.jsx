@@ -5,6 +5,7 @@ import bannerone from "../Images/bannerone.jpg";
 import { RxArrowTopRight } from "react-icons/rx";
 import { NavLink } from "react-router-dom";
 import pattern from "../Images/pattern.png";
+import client from "../Images/client.jpg";
 
 const Contacttwo = () => {
   return (
@@ -115,7 +116,7 @@ const Contacttwo = () => {
                       }}
                     >
                       <img
-                        src={bannerone}
+                        src={client}
                         style={{
                           height: "250px",
                           width: "100%",
@@ -132,7 +133,7 @@ const Contacttwo = () => {
                         >
                           Relax body and mind for our next session !!
                         </h2>
-                        <h5
+                        {/* <h5
                           className="mt-4"
                           style={{
                             fontFamily: "var(--head-font)",
@@ -140,8 +141,8 @@ const Contacttwo = () => {
                           }}
                         >
                           Opening days :
-                        </h5>
-                        <h6
+                        </h5> */}
+                        {/* <h6
                           className="mt-4"
                           style={{
                             fontFamily: "var(--head-font)",
@@ -149,8 +150,8 @@ const Contacttwo = () => {
                           }}
                         >
                           Mon - Fri : 06:00am to 08:00pm
-                        </h6>
-                        <h6
+                        </h6> */}
+                        {/* <h6
                           className="mt-2"
                           style={{
                             fontFamily: "var(--head-font)",
@@ -158,7 +159,7 @@ const Contacttwo = () => {
                           }}
                         >
                           Sat - Sun : 08:00am to 06:00pm
-                        </h6>
+                        </h6> */}
                       </div>
                     </div>
                   </div>

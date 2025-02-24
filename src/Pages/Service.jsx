@@ -29,12 +29,16 @@ const Service = () => {
             <div className="row">
               <div className="col-12 col-md-9 p-2 px-lg-5  order-lg-2">
                 <Fade>
-                  <img src={data.image[0]} className="mainimgservice" alt="img" />
+                  <img
+                    src={data.image[0]}
+                    className="mainimgservice"
+                    alt="img"
+                  />
                 </Fade>
-
                 <h2 className="mt-5" style={{ fontFamily: "var(--head-font)" }}>
                   Our yoga is the foundation of youth
                 </h2>
+                {/* {data.description} */}
                 <p
                   className="mt-4"
                   style={{
@@ -69,11 +73,10 @@ const Service = () => {
                   soluta id ipsam optio, quasi, eaque culpa error perspiciatis
                   facilis alias laborum ad iure?
                 </p>
-
-                <h2 className="mt-4" style={{ fontFamily: "var(--head-font)" }}>
+                {/* <h2 className="mt-4" style={{ fontFamily: "var(--head-font)" }}>
                   Different tpyes of yoga
-                </h2>
-                <p
+                </h2> */}
+                {/* <p
                   className="mt-4"
                   style={{
                     fontFamily: "var(--para-font)",
@@ -87,9 +90,8 @@ const Service = () => {
                   quibusdam asperiores saepe exercitationem consequuntur beatae
                   ipsum aperiam consequatur eius maxime, ipsa rerum dolorum
                   magni
-                </p>
-
-                <div className="row">
+                </p> */}
+                {/* <div className="row">
                   <div className="col-12 col-md-4 mt-4">
                     <article
                       class="pbmit-service-style-1 swiper-slide swiper-slide-active"
@@ -309,9 +311,8 @@ const Service = () => {
                       </div>
                     </article>
                   </div>
-                </div>
-
-                <div className="row mt-5 pt-4">
+                </div> */}
+                {/* <div className="row mt-5 pt-4">
                   <div className="col-12 col-md-6 pe-5 p-3">
                     <img
                       src={bannerone}
@@ -427,13 +428,11 @@ const Service = () => {
                       </h6>
                     </div>
                   </div>
-                </div>
-
+                </div> */}
                 {/* Accoordian Start */}
                 <h2 className="mt-5" style={{ fontFamily: "var(--head-font)" }}>
                   Frequently asked questions
                 </h2>
-
                 <div className="accordion mb-5" id="accordionExample">
                   <div className=" mt-4">
                     <h2 className="accordion-header">
@@ -557,7 +556,9 @@ const Service = () => {
                   >
                     <h4 className="mt-3 ps-4 serviceultitle">Our Service</h4>
                     <ul className="p-0 mt-5">
-                      {Servicedata.filter(datas=>datas.type===data.type).map((data) => (
+                      {Servicedata.filter(
+                        (datas) => datas.type === data.type
+                      ).map((data) => (
                         <>
                           <NavLink to={data.slug}>
                             {({ isActive }) => (

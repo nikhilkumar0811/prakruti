@@ -376,6 +376,7 @@ const Servicedata = [
     slug: "/Kundali-Reading-and-Guidance",
     type: "Other Facilities",
     image: [img47],
+    description: "Nikhil",
   },
 ];
 export default Servicedata;

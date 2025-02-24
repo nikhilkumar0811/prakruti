@@ -149,7 +149,9 @@ const Contactone = () => {
                     color: "gray",
                   }}
                 >
-                  Address to be written over here with the pin code 000000
+                  Green Acres, Phase 1, D wing, Flat No. 104, First Floor Behind
+                  Bank of Baroda, Vijay Galaxy, Ghodbandar Road, Waghbil Naka
+                  Flyover, Thane, Maharashtra 400607
                 </h6>
               </div>
             </div>

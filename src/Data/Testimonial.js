@@ -15,9 +15,9 @@ const Testimonial = [
       "Very nice Naturopathy treatment for pain Management...myself cure from knee pain and lumbar pain ( lower Back pain.... Spondylitis ) Thanks,",
   },
   {
-    name: "Customer Name",
+    name: "Amit Verma",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam vitae delectus soluta autem amet omnis pariatur neque obcaecati eaque vero,",
+      "The therapy sessions were really effective in reducing my back pain. I felt a significant improvement in just a few weeks. Highly recommended!,",
   },
 ];
 export default Testimonial;

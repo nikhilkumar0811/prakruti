@@ -95,7 +95,7 @@ const Footer = () => {
             <h3 className="px-2 " style={{ fontFamily: "var(--head-font)" }}>
               Prakruthi Naturopathy & Yog – Heal Naturally, Live Blissfull.{" "}
             </h3>
-            <div className="row mt-5">
+            <div className="row mt-4">
               <div className="col-12 col-md-4">
                 <h5
                   style={{ fontFamily: "var(--head-font)", fontSize: "18px" }}
@@ -111,7 +111,7 @@ const Footer = () => {
                   }}
                 >
                   <NavLink to="/about">
-                    <li className="mt-4 text-black">About</li>
+                    <li className="mt-1 text-black">About</li>
                   </NavLink>
                   {Servicedata.slice(0, 1).map((data) => (
                     <NavLink to={data.slug}>
@@ -137,7 +137,7 @@ const Footer = () => {
                     fontSize: "16px",
                   }}
                 >
-                  <li className="mt-4">Mon-Fri : 06am to 08pm</li>
+                  <li className="mt-1">Mon-Fri : 06am to 08pm</li>
                   <li className="mt-2">Sat : 08am to 06pm</li>
                   <li className="mt-2">Sun : 06am to 08pm</li>
                 </ul>
@@ -149,7 +149,7 @@ const Footer = () => {
                   Our Address
                 </h5>
                 <p
-                  className="pe-4 mt-4"
+                  className="pe-4 mt-1"
                   style={{ pfontFamily: "var(--para-font)", fontSize: "16px" }}
                 >
                   Green Acres, Phase 1, D wing, Flat No. 104, First Floor Behind

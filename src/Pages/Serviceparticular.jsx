@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import Servicedata from "../Data/Servicedata";
 import bannerone from "../Images/bannerone.jpg";
-import services from "../Images/servicesbanner.jpg";
 import services2 from "../Images/services.jpg";
 import Banner from "../Components/Banner";
 import { RxArrowTopRight } from "react-icons/rx";

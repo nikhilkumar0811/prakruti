@@ -2,7 +2,6 @@ import React from "react";
 import bannerone from "../Images/bannerone.jpg";
 import bannertwo from "../Images/bannertwo.jpg";
 import bannerthree from "../Images/bannerthree.jpg";
-import weightred2 from "../Images/weightred2.jpg";
 import protect from "../Images/protect.jpg";
 import increasedflex from "../Images/increasedflex.jpg";
 import tratak2 from "../Images/tratak2.jpg";

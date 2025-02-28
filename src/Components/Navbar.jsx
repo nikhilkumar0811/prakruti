@@ -11,9 +11,6 @@ import "swiper/css"; // Main styles
 import "swiper/css/navigation"; // For navigation styles (optional)
 import "swiper/css/pagination"; // For pagination styles (optional)
 import logo from "../Images/logo.jpg";
-import bannerone from "../Images/bannerone.jpg";
-import bannertwo from "../Images/bannertwo.jpg";
-import bannerthree from "../Images/bannerthree.jpg";
 import bannerfour from "../Images/bannerfour.jpg";
 import bannerfive from "../Images/bannerfive.jpg";
 import bannersix from "../Images/bannersix.jpg";

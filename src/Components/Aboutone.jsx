@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import bannerthree from "../Images/bannerthree.jpg";
 import imgone from "../Images/yoga.png";
 import abouta from "../Images/abouta.jpg";
 import { TfiArrowTopRight } from "react-icons/tfi"; // Importing the arrow icon from react-icons
